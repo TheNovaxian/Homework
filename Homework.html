@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework</title>
-    <link href="/page hw/Homework/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="nav">
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Courses</li>
-            <li>Contact</li>
+            <li><a href="https://www.umontreal.ca/en/">Home</a></li>
+            <li><a href="https://www.umontreal.ca/en/our-campuses/montreal-campus/">About</a></li>
+            <li><a href="https://admission.umontreal.ca/en/programs-of-study/">Courses</a></li>
+            <li><a href="https://www.umontreal.ca/en/our-campuses/">Contact</a></li>
         </ul>
     </div>
      
@@ -87,8 +87,12 @@
            
         </div>
         <label for="zip">Location on Map</label>
-        <div>
-                <img src="/page hw/Homework/map.png" alt="map" height="200px" width="700px" >
+        <div id="map-textarea">
+             
+                   <img src="map1.png" usemap="#mappoint" alt="map" height="200px" width="700px" >
+                <map name="mappoint">
+                    <area href="https://www.umontreal.ca/en/" shape="rect" coords="0, 0 , 1180, 399">
+                </map>
            
            
         </div>

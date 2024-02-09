@@ -26,8 +26,8 @@ body{
 .nav{
    width: 100%;
    position:fixed;
-    /* display: flex; */
     padding: 14px 14px;
+    padding-top: 10px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -53,22 +53,6 @@ form{
     gap: 2rem;
 }
 
-/* button,
-fieldset,
-input,
-legend,
-select,
-textarea{
-
-    
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
 
 input,
 select,
@@ -87,7 +71,7 @@ textarea{
     box-sizing: border-box;
     width: 100%;
     padding: 0.5rem 0.75rem;
-    border-color: orange;
+    border-color: rgb(3, 3, 3);
 }
 
 textarea{
@@ -119,14 +103,14 @@ input[type="radio"]{
 }
 
 input[type="radio"]:checked {
-    background-image: url("radio.svg");
+    background-image: url("/page hw/Homework/radio.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 input[type="checkbox"]:checked {
-    background-image: url("check.svg");
+    background-image: url("/page hw/Homework/check.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -141,7 +125,7 @@ input[type="checkbox"]:checked {
 input::placeholder,
 textarea::placeholder{
 opacity: 1;
-color: hsl(213, 73%,50%);
+color: hsl(240, 0%, 52%);
 }
 
 button{
